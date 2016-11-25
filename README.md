@@ -8,30 +8,33 @@ CSDN: http://blog.csdn.net/rain_butterfly
 
 ---
 # AndroidTVLauncher
-[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
 
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/app/src/main/res/drawable-xhdpi/ic_launcher.png" width = "100" height = "100" alt="logo" align=center />
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/CatLauncher/src/main/res/mipmap-xxhdpi/ic_launcher.jpg)
 
-This is a better android-tv-launcher,it can running on the TV or TV box.Build with gradle 2.0.0.
+This is a tv launcher, include a leanback launcher(minSdkVersion 17) and a normal launcher(minSdkVersion 15).
+
+###Notice
+CatLauncher (Leanback style) function has been basically stable at present, the progress of the follow-up will follow up the official Leanback library, Compatible desktop theory is no longer maintained
+
 ###Features
-> * App Uninstall
-> * Garbage Clear
-> * Kill Other App
-> * App Auto-launch Manage
-> * NetWork Setting
-so on...
+> * Leanback style
+> * Pictures show
+> * Video broadcast (jiecao player - based on ijkplayer)
+> * Details of the media
+> * The third party application list
+> * Desktop special function
 
 ###Effect Picture
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/setting.png" width = "400" height = "225" alt="logo" align=center />  <img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/%E5%BA%94%E7%94%A8%E5%8D%B8%E8%BD%BD.jpg" width = "400" height = "225" alt="logo" align=center />
-
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/clear.jpg" width = "400" height = "225" alt="logo" align=center />  <img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/%E8%87%AA%E5%90%AF%E5%8A%A8.jpg" width = "400" height = "225" alt="logo" align=center />
-
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/bluetooth.jpg" width = "400" height = "225"" alt="logo" align=center />  <img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/speed_test.jpg" width = "400" height = "225" alt="logo" align=center />
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch1.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch2.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch3.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch4.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch5.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch6.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch7.png)
 
 ###The next step to improve
-> * Focus Compatibility(This version running on some box focus problems may occur)
-> * Architecture(MVC to MVP or MVVM)
-> * Main UI
+> * Follow up the official Leanback library new features
 
 ###License
 

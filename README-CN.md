@@ -1,48 +1,60 @@
-###欢迎在GitHub或者CSDN上关注我
+### 欢迎在GitHub或者CSDN上关注我
 
 GitHub: https://github.com/JackyAndroid
 
-CSDN: http://blog.csdn.net/rain_butterfly
+CSDN: http://blog.csdn.net/rain\_butterfly
 
 ---
 # AndroidTVLauncher
-[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](http://blog.csdn.net/rain_butterfly/article/details/44942747)
 
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/app/src/main/res/drawable-xhdpi/ic_launcher.png" width = "100" height = "100" alt="logo" align=center />
+![][image-1]
 
-这个项目是对android-tv-launcher开源项目用gradle编译的升级改造（以前那个也是本人的项目）
+这是一个TV 桌面，包含了一个Leanback 桌面（最低版本是17）和一个普通桌面（最低版本是15），Leanback桌面是基于Leanback库开发符合Android TV官方交互规范。
 
-###特性
-> * 应用卸载
-> * 垃圾清理
-> * 一键加速
-> * 自启动管理
-> * 网络设置等等
+### 注意
+CatLauncher(Leanback风格) 目前功能已基本稳定，后续会跟进官方Leanback库的进展，Compatible桌面理论上不再维护
 
-###效果图
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/setting.png" width = "400" height = "225" alt="logo" align=center />  <img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/%E5%BA%94%E7%94%A8%E5%8D%B8%E8%BD%BD.jpg" width = "400" height = "225" alt="logo" align=center />
+### 特性
+> * Leanback风格
+> * 图片展示
+> * 视频直播（节操播放器-基于ijkplayer）
+> * 媒体详情
+> * 第三方应用列表
+> * 桌面特殊功能
 
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/clear.jpg" width = "400" height = "225" alt="logo" align=center />  <img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/%E8%87%AA%E5%90%AF%E5%8A%A8.jpg" width = "400" height = "225" alt="logo" align=center />
+### 效果图
+![][image-2]
+![][image-3]
+![][image-4]
+![][image-5]
+![][image-6]
+![][image-7]
+![][image-8]
+![]()
+### 下一步的改进
+> * 跟进官方Leanback库新功能
 
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/bluetooth.jpg" width = "400" height = "225"" alt="logo" align=center />  <img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/img/speed_test.jpg" width = "400" height = "225" alt="logo" align=center />
+### License
 
-###下一步的改进
-> * 焦点问题（焦点问题在一些机顶盒上面可能会出现偏移）
-> * 架构（目前架构比较老，下一步会转为MVP或者MVVM）
-> * 主界面会向官方TV桌面进行靠拢
+	Copyright 2016 Jacky Wang<jacky.android@foxmail.com>
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	  http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
 
-###License
-
-    Copyright 2016 Jacky Wang<jacky.android@foxmail.com>
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+[image-1]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/CatLauncher/src/main/res/mipmap-xxhdpi/ic_launcher.jpg
+[image-2]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch1.png
+[image-3]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch2.png
+[image-4]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch3.png
+[image-5]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch4.png
+[image-6]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch5.png
+[image-7]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch6.png
+[image-8]:	https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/design_sketch7.png
